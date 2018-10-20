@@ -1,0 +1,321 @@
+/* RESPONSIVE */
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
+	.title-sede {
+		margin-top: 35px;
+		font-weight: 300;
+		font-size: 16px;
+		padding: 10px;
+		line-height: 20px;
+		font-weight: 600;
+	}
+	.beneficios {
+		font-size: 13px;
+		padding: 10px 0px 30px;
+	}
+	.carreras li {
+		line-height: 32px;
+		font-size: 13px;
+	}
+	iframe {
+		max-width: 100%;
+		height: 350px;
+	}
+	.diplo_lista ul {
+		display: block;
+	}
+	.presenciales li {
+		width: 100%;
+	}
+	.virtuales_contenedor {
+		width: 100%;
+		height: auto;
+	}
+	.btn-enviar {
+		display: block;
+	}
+	.bubble {
+		font-size: 14px;
+	}
+	.virtuales li {
+		width: 100%;
+	}
+	.footer ul {
+		list-style-image: none;
+	}
+	#sedes-ipae {
+		display: none;
+	}
+	section {
+		padding: 20px 0px;
+	}
+	.negocios {
+		padding: 0px 0px 20px;
+	}
+	.box-facu {
+		margin: 0 20px 10px 0;
+	}
+	.razones {
+		padding: 0px 0px 20px 0px;
+	}
+	.descripcion-carreras {
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 568px) {
+	#sedes-ipae {
+		display: none;
+	}
+	.sedes {
+		display: none;
+	}
+	.diplo_lista ul {
+		display: block;
+	}
+	.presenciales li {
+		width: 100%;
+	}
+	.virtuales_contenedor {
+		width: 100%;
+		height: auto;
+	}
+	.btn-enviar {
+		display: block;
+	}
+	.bubble {
+		font-size: 14px;
+	}
+	.virtuales li {
+		width: 100%;
+	}
+	.footer ul {
+		list-style-image: none;
+	}
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+	.diplo_lista ul {
+		display: block;
+	}
+	.presenciales li {
+		width: 100%;
+	}
+	.virtuales_contenedor {
+		width: 100%;
+		height: auto;
+	}
+	.btn-enviar {
+		display: block;
+	}
+	.bubble {
+		font-size: 14px;
+	}
+	.virtuales li {
+		width: 100%;
+	}
+	.footer ul {
+		list-style-image: none;
+	}
+	.sedes {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 414px) and (max-width: 736px) {
+	.sedes {
+		display: none;
+	}
+}
+
+@media (max-width: 1199px) {
+	.texto_1 {
+		font-size: 45px;
+	}
+	.texto_2 {
+		font-size: 50px;
+	}
+	.cuadro-rojo h2 {
+		font-size: 20px !important;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.texto_1 {
+		font-size: 55px;
+	}
+	.texto_2 {
+		font-size: 60px;
+	}
+	.cuadro-rojo h2 {
+		font-size: 20px !important;
+	}
+	.cuadro-rojo {
+		display: none;
+	}
+	.texto-centrado {
+		height: 710px;
+		width: 436px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.texto-centrado h1 {
+		line-height: 55px;
+		margin: 5px 0px;
+	}
+	.cuadro-rojo-tablet {
+		background-color: #c41e3a;
+		height: 125px;
+		padding: 0px 22px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+	}
+	.cuadro-rojo-tablet h2 {
+		font-family: "FuturaStd-ExtraBoldOblique";
+		color: #FFF;
+		line-height: 40px;
+		margin: 0px;
+		font-size: 29px !important;
+	}
+	.propia-empresa {
+		text-transform: uppercase;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+	}
+	.propia-empresa .unode4 {
+		color: #c41e3a;
+		margin: 20px 0px 0px;
+	}
+	.propia-empresa h2 {
+		font-family: "FuturaStd-ExtraBoldOblique";
+		color: #000;
+		line-height: 40px;
+		margin: 0px;
+		font-size: 27px !important;
+	}
+	.prestigio img {
+		width: 45%;
+	}
+}
+
+@media (max-width:767px) {
+	.menu-carreras {
+		height: 190px;
+	}
+	.logo {
+		padding: 7em 3em;
+	}
+	.logo img {
+		width: 15%;
+	}
+	.texto-centrado h1 {
+		font-family: "FuturaStd-ExtraBoldOblique";
+		color: #231F20;
+		line-height: 49px;
+		margin: 0px;
+		font-size: 36px;
+	}
+	.texto_1 {
+		font-size: 55px;
+	}
+	.texto_2 {
+		font-size: 60px;
+	}
+	.cuadro-rojo h2 {
+		font-size: 20px !important;
+	}
+	.cuadro-rojo {
+		display: none;
+	}
+	.texto-centrado {
+		height: 480px;
+		width: 436px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.cuadro-rojo-tablet {
+		background-color: #c41e3a;
+		height: 125px;
+		padding: 0px 22px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+	}
+	.cuadro-rojo-tablet h2 {
+		font-family: "FuturaStd-ExtraBoldOblique";
+		color: #FFF;
+		line-height: 40px;
+		margin: 0px;
+		font-size: 27px !important;
+	}
+	.propia-empresa {
+		text-transform: uppercase;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+	}
+	.propia-empresa .unode4 {
+		color: #c41e3a;
+		margin: 20px 0px 0px;
+	}
+	.propia-empresa h2 {
+		font-family: "FuturaStd-ExtraBoldOblique";
+		color: #000;
+		line-height: 40px;
+		margin: 0px;
+		font-size: 27px !important;
+	}
+	.prestigio img {
+		width: 30%;
+	}
+}
+
+@media (max-width: 500px) {
+	.header-carreras-mobile {
+		background: url(../images/landing_carrera_mobile.png) center no-repeat;
+		background-size: cover;
+		 height: 100vh;
+	}
+	.header-carreras {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.header-carreras-mobile {
+    background: url(../images/landing_carrera_mobile.png) no-repeat;
+    height: 100vh;
+    background-size: contain;
+}
+	
+}
+
+@media screen and (max-width: 400px) {
+	.header-carreras-mobile {
+    background: url(../images/landing_carrera_mobile.png) center no-repeat;
+    height: 100vh;
+    background-size: cover;
+	}
+}
+
+@media only screen and (min-width:1280px) and (min-height: 800px) {}
+
+@media only screen and (min-width:1400px) and (min-height: 900px) {}
+
+@media only screen and (min-width:2000px) and (min-height: 1200px) {}
+
+@media only screen and (min-width:1600px) and (min-height: 1200px) {}
+
+@media only screen and (min-width:1920px) and (min-height: 1080px) {
+	section .sedes {
+		display: none;
+	}
+}
